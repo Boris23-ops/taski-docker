@@ -61,7 +61,7 @@ jobs:
         with:
           context: ./backend/
           push: true
-          tags: sonya940/taski_backend:latest
+          tags: borisrow23/taski_backend:latest
 
 
   frontend_tests:
@@ -103,7 +103,7 @@ jobs:
         with:
           context: ./frontend/
           push: true
-          tags: sonya940/taski_frontend:latest
+          tags: borisrow23/taski_frontend:latest
 
 
   build_gateway_and_push_to_docker_hub:
